@@ -1,0 +1,84 @@
+nav{
+    background-color: #5d4954;
+    border: 0;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.welcomemsg{
+    font-size: 30px;
+    float: left;
+    display: inline;
+    padding-left: 5px;
+    color: aliceblue;
+
+}
+body{
+    padding:0;
+    margin:0;
+    background-repeat: no-repeat, repeat;
+    background-position: 50% 65%;
+    background-attachment: fixed;
+    background-size: auto;
+
+}
+.loginform {
+    margin-top: 0;
+    float: right;
+    display: inline;
+    width: 30%;
+    background-color: transparent;
+    color : azure;
+    padding-right: 5px;
+}
+.container{
+    width: 100%;
+}
+.greetingmsg{
+    margin-left: 1%;
+    margin-top:  3%;
+    width: 30%;
+    float: left;
+    font-size: large;
+    display: inline;
+    background-color: rgba(93, 73, 84, 0.3);
+    border: black;
+    border-radius: 4px;
+}
+.registerform{
+    clear: both;
+    float: right;
+    color: azure;
+    display: inline;
+    background-color: rgba(93, 73, 84, 0.3);
+    font-size: x-large;
+    border: black;
+    border-radius: 4px;
+    padding: 1em;
+    margin-right: 1%;
+}
+
+.inputregister{
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #C36A9B;
+}
+
+th, td {
+    padding: 15px;
+}
+
+.loginerror{
+    color: red;
+}
+
+.inputerror{
+    box-shadow: 0 0 5px red;
+}
+
+.errormsg{
+    color: red;
+}
+
