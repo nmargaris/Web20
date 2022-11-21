@@ -1,5 +1,6 @@
 <?php
 
+
 if (isset($_POST['submit'])) {
     require 'connection.php';
     $username = $_POST['username'];
@@ -8,11 +9,14 @@ if (isset($_POST['submit'])) {
 //    $errorEmpty = false;
 //    $errorUsername = false;
 //    $errorPassword = false;
+   // $res = mysqli_query($conn, "SELECT username FROM users WHERE username='$username'");
+   // $row = mysqli_fetch_row($res);
+
 
     if (empty($username) || empty($password)) {
 //        $errorEmpty = true;
         echo "<span class='errormsg'>Fill in all fields</span>";
-    } else {
+    } else{
         $sql = "SELECT * FROM admin WHERE username=? ";
         $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql)) {
@@ -21,6 +25,7 @@ if (isset($_POST['submit'])) {
             mysqli_stmt_bind_param($stmt, "s", $username);
             mysqli_stmt_execute($stmt);
             $result = mysqli_stmt_get_result($stmt);
+            $result1 = mysqli_stmt_get_result($stmt);
             if ($row = mysqli_fetch_assoc($result)) {
                 $hashedpwd = md5($password);
                 $pwdcheck = strcmp($hashedpwd, $row['password']);
@@ -40,6 +45,7 @@ if (isset($_POST['submit'])) {
             }
         }
     }
+
 }
 
 else {

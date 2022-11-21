@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/json-machine/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/composer" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/json-machine/vendor/symfony/polyfill-intl-idn" />
+    </include_path>
+  </component>
+</project>

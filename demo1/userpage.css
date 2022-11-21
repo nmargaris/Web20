@@ -1,0 +1,341 @@
+nav{
+    background-color: #5d4954;
+    border: 0;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+    height: 1rem;
+}
+.welcomemsg{
+    font-size: 2rem;
+    float: left;
+    padding-left: 1em;
+    margin-top: 0;
+    color: aliceblue;
+
+}
+.infouser{
+    float: right;
+    margin-right: 5em;
+    color: aliceblue;
+    font-size: 1rem;
+}
+#logoutuser{
+    float: right;
+    margin-right: 1%;
+    color: chartreuse;
+    border: chartreuse;
+}
+#logoutuser:hover{
+    color: aqua;
+}
+body{
+    padding:0;
+    margin:0;
+    background-repeat: repeat;
+    /*background-position: 50% 65%;*/
+    /*background-attachment: fixed;*/
+    background-size: cover;
+
+}
+.loginform {
+    margin-top: 0;
+    float: right;
+    display: inline;
+    width: 30%;
+    background-color: transparent;
+    color : azure;
+    padding-right: 5px;
+}
+.container{
+    width: 100%;
+}
+.greetingmsg{
+    margin-left: 1%;
+    margin-top:  3%;
+    width: 30%;
+    float: left;
+    font-size: large;
+    display: inline;
+    background-color: rgba(93, 73, 84, 0.3);
+    border: black;
+    border-radius: 4px;
+}
+.registerform{
+    clear: both;
+    float: right;
+    color: azure;
+    display: inline;
+    background-color: rgba(93, 73, 84, 0.3);
+    font-size: x-large;
+    border: black;
+    border-radius: 4px;
+    padding: 1em;
+    margin-right: 1%;
+}
+
+.inputregister{
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #C36A9B;
+}
+
+
+th, td {
+    padding: 0.1vw;
+}
+
+.loginerror{
+    color: red;
+}
+
+.inputerror{
+    box-shadow: 0 0 5px red;
+}
+
+.errormsg{
+    color: red;
+}
+
+
+#mapid {
+    margin-left: 40px;
+    height: 25rem;
+    min-width: 10rem;
+    max-width: 30rem;
+}
+
+#upload{
+    margin-left: 5%;
+    color: aqua;
+    font-size: 1em;
+    min-width: 10rem;
+    max-width: 30rem;
+}
+#upmsg{
+    color: aliceblue;
+}
+
+#maptitle{
+    margin-left: 2em;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+
+
+#mapcontainer{
+    float: left;
+    max-width: 50rem;
+    margin-right: 1%;
+}
+
+#highscores{
+    margin-left: 20%;
+    float: left;
+    width: 35rem;
+    height: 30rem;
+}
+
+#highscoresmsg{
+    color: aliceblue;
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+.container2
+{
+
+    float: left;
+    width: 40rem ;
+    height: 20rem;
+}
+
+.container2 .box
+{
+
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    background: transparent;
+    float: left;
+    margin: 1em;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container2 .box .icon
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container2 .box:hover .icon
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container2 .box .icon .fa
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.container2 .box:hover .icon .fa
+{
+    font-size: 40px;
+}
+
+.container2 .box .content
+{
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 5%);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+
+}
+
+.container2 .box:hover .content
+{
+    top: 100px;
+    opacity: 1;
+    color: #fff;
+}
+.container2 .box .content h3
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.container2 .box .content p
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.container2 .box2
+{
+
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    background: transparent;
+    float: left;
+    margin: 1em;
+    /* margin-right: 10%; */
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container2 .box2 .icon2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #C36A9B;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container2 .box2:hover .icon2
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container2 .box2 .icon2 .fa
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.container2 .box2:hover .icon2 .fa
+{
+    font-size: 40px;
+}
+
+.container2 .box2 .content2
+{
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 5%);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+
+}
+
+.container2 .box2:hover .content2
+{
+    top: 100px;
+    opacity: 1;
+}
+.container2 .box2 .content2 h3
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 1em;
+}
+
+.container2 .box2 .content2 p
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 1em;
+}
+
+.datepicker .h3
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.datepicker{
+    width: 15rem;
+    height: 15rem;
+    float: left;
+}
