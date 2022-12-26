@@ -105,18 +105,6 @@
 </main>
 
 
-<!--<div class="log">-->
-<!--    <form name="login_form" method="POST" action="login.php" >-->
-<!--        Username:-->
-<!--        <input type="text" name="username" placeholder="username" id="username">-->
-<!--        <br><br>-->
-<!--        Password:-->
-<!--        <input style="margin-left: 4px" type="password" name="password" placeholder="password" id="password" a>-->
-<!--        <br><br>-->
-<!--        <input type="submit" value="Login">-->
-<!--    </form>-->
-
-<!--</div>-->
 
 </body>
 
