@@ -28,7 +28,7 @@ if($tempusername) {
         //echo $eco_message[0]["message"] ;
     } else {
         $query = "SELECT * FROM activity WHERE MONTH(timestamp) = MONTH(CURRENT_DATE()) AND YEAR(timestamp ) = YEAR(CURRENT_DATE()) AND username='$tempusername' AND (type='WALKING' OR type='ON_BICYCLE' OR type='ON_FOOT' OR type='RUNNING')";
-        //arithmos oikologikwn type
+        
         $result = mysqli_query($conn, $query);
         $count_eco = mysqli_num_rows($result);
 
