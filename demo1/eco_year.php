@@ -112,10 +112,7 @@ if($tempusername) {
     for ($i = 0; $i < $N; $i++) {
         for ($j = 0; $j < 12; $j++) {
             if ($eco_fill[$j]['month'] == $eco_type[$i]['Month']) {
-//            echo "Hello";
-//            echo " i=";
-//            echo $i;
-//            echo "<br>";
+
                 $eco_fill[$j]['score'] = $eco_type[$i]['count'];
 
             }
@@ -134,7 +131,7 @@ if($tempusername) {
     }
 
 
-//print_r($eco_fill);
+
     $table = array();
     $table['cols'] = array(
         array('label' => 'month', 'type' => 'string'),
@@ -155,8 +152,7 @@ if($tempusername) {
     $jsonTable = json_encode($table, true);
     echo $jsonTable;
 
-//$response = json_encode($table, true);
-//echo $response;
+
 }
 else{
     header("Location:../demo1/loginpage.php");
