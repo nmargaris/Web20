@@ -6,15 +6,11 @@ if (isset($_POST['submit'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-//    $errorEmpty = false;
-//    $errorUsername = false;
-//    $errorPassword = false;
-   // $res = mysqli_query($conn, "SELECT username FROM users WHERE username='$username'");
-   // $row = mysqli_fetch_row($res);
+
 
 
     if (empty($username) || empty($password)) {
-//        $errorEmpty = true;
+
         echo "<span class='errormsg'>Fill in all fields</span>";
     } else{
         $sql = "SELECT * FROM admin WHERE username=? ";
