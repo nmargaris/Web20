@@ -17,7 +17,7 @@ if($tempusername) {
 
     $sql = "SELECT * FROM locations WHERE MONTH(timestamp) = MONTH(CURRENT_DATE()) AND YEAR(timestamp ) = YEAR(CURRENT_DATE()) ";
     $result = mysqli_query($conn, $sql);
-//arithmos topothesiwn
+
     $count_loc = mysqli_num_rows($result);
 
     if ($count_loc == 0) {
