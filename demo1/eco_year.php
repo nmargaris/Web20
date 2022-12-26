@@ -32,33 +32,6 @@ if($tempusername) {
 
     $N = sizeof($eco_type);
     $M = sizeof($eco_type_total);
-//echo "This is the eco type array";
-//echo "<br>";
-//for ($i=0; $i<$N; $i++)
-//{
-//    echo $eco_type[$i]['Month'];
-//    echo " ";
-//    echo $eco_type[$i]['count'];
-//    echo " i=";
-//    echo $i;
-//    echo "<br>";
-//}
-//echo "<br>";
-//echo "<br>";
-//echo "This is the eco total array";
-//echo "<br>";
-//for ($i=0; $i<$M; $i++)
-//{
-//    echo $eco_type_total[$i]['Month'];
-//    echo " ";
-//    echo $eco_type_total[$i]['count'];
-//    echo " i=";
-//    echo $i;
-//    echo "<br>";
-//}
-//
-//echo "<br>";
-
 
     for ($i = 0; $i < 12; $i++) {
         if ($i == 0) {
