@@ -6,7 +6,7 @@ if($tempusername) {
 
     date_default_timezone_set('Europe/Athens');
 
-   //$eco_type = array();
+  
 
     $sql = "SELECT monthname(timestamp),count(*) AS counter FROM activity WHERE username='$tempusername' AND timestamp BETWEEN DATE_SUB(NOW(), INTERVAL 365 DAY) AND NOW() AND (type='WALKING' OR type='ON_BICYCLE' OR type='ON_FOOT' OR type='RUNNING' ) GROUP BY month(timestamp) ORDER BY month(timestamp)";
     $result = mysqli_query($conn, $sql);
