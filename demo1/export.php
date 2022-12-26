@@ -21,17 +21,7 @@ $type = mysqli_real_escape_string($conn,$_POST['type']);
 
         }
         $result=mysqli_query($conn, $sql);
-//        while($row = mysqli_fetch_array($result) ) {
-//            $data [] = array(
-//                'username' => $row['username'],
-//                'timestamp' => $row['timestamp'],
-//                'lat' => $row['lat'],
-//                'lng' => $row['lng'],
-//                'type' => $row['type'],
-//                'confidence' => $row['confidence'],
-//                'accuracy' => $row['accuracy']
-//            );
-//        }
+
         while($row = mysqli_fetch_assoc($result))
         {
             fputcsv($output, $row);
@@ -76,17 +66,7 @@ $type = mysqli_real_escape_string($conn,$_POST['type']);
             $sql = "SELECT locations.username, locations.timestamp, locations.lat , locations.lng, locations.accuracy , activity.type, activity.confidence from locations INNER JOIN activity WHERE locations.id=activity.id_location  AND activity.type = '$type' AND locations.timestamp BETWEEN '$date1_insert' AND '$date2_insert'";
         }
         $result=mysqli_query($conn, $sql);
-//        while($row = mysqli_fetch_array($result) ) {
-//            $data [] = array(
-//                'username' => $row['username'],
-//                'timestamp' => $row['timestamp'],
-//                'lat' => $row['lat'],
-//                'lng' => $row['lng'],
-//                'type' => $row['type'],
-//                'confidence' => $row['confidence'],
-//                'accuracy' => $row['accuracy']
-//            );
-//        }
+
         while($row = mysqli_fetch_assoc($result))
         {
             fputcsv($output, $row);
